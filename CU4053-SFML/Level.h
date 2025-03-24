@@ -13,6 +13,7 @@ public:
 	Level(sf::RenderWindow* hwnd, Input* in, GameState* gs);
 	~Level();
 
+
 	void handleInput(float dt) override;
 	void update(float dt) override;
 	void render();

@@ -134,6 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Credits.cpp" />
     <ClCompile Include="Framework\BaseLevel.cpp" />
     <ClCompile Include="Framework\Collision.cpp" />
     <ClCompile Include="Framework\GameObject.cpp" />
@@ -141,8 +142,11 @@
     <ClCompile Include="Framework\Input.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Pause.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Credits.h" />
     <ClInclude Include="Framework\BaseLevel.h" />
     <ClInclude Include="Framework\Collision.h" />
     <ClInclude Include="Framework\GameObject.h" />
@@ -150,6 +154,8 @@
     <ClInclude Include="Framework\Input.h" />
     <ClInclude Include="Framework\UI.h" />
     <ClInclude Include="Level.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Pause.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Framework\DO_NOT_EDIT.txt" />
